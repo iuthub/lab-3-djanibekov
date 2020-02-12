@@ -1,0 +1,19 @@
+.container{
+	border: 5px green solid;
+	background-color: white;
+}
+.subcontainer1{
+	border: 5px red solid;
+}
+.subsubcontainer{
+	border: 5px orange solid;
+}
+.subcontainer2, .subcontainer3{
+	border: 5px blue solid;
+	background-color: #E8FBFB;
+	padding: 5px 5px;
+	margin-top: 10px;
+}
+html{
+	background-image: url(http://www.cs.washington.edu/education/courses/190m/09sp/labs/2);
+}
