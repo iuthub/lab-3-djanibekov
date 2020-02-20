@@ -1,19 +1,45 @@
 .container{
-	border: 5px green solid;
-	background-color: white;
+	border: 10px white solid;
+	background-color: white;  
+    overflow: hidden;
 }
 .subcontainer1{
-	border: 5px red solid;
+    background-color: #A8F0F0 ;
+    text-align: right;
 }
-.subsubcontainer{
-	border: 5px orange solid;
+.subsubcontainer1 h2{
+	font-size: 14pt;
 }
 .subcontainer2, .subcontainer3{
-	border: 5px blue solid;
+	border: 4px #C2E9E9 solid;
 	background-color: #E8FBFB;
 	padding: 5px 5px;
 	margin-top: 10px;
+    overflow: hidden;
+    
 }
-html{
-	background-image: url(http://www.cs.washington.edu/education/courses/190m/09sp/labs/2);
+.subcontainer4{
+    float: left;
+    padding: 5px;
+    border: 5px #009097 solid;
+    background-color: #99E0E0;
+    margin-top: 10px;
+}
+.union{
+    margin-left: 190px;
+    
+}
+span{
+    border-bottom: 2px #009097 dashed;
+}
+body{
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/labs/2-journal/solution/images/background.gif);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container img{
+    float: right;
+}
+* *:hover {
+	background-color: yellow;
 }
